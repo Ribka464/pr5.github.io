@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Мои задачи</title>
+        <style>
+        body{   
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(35, 43, 165);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background-color: aliceblue;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: left;
+            width: 500px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container"
+            <h1>Список моих задач</h1><br>
+            <a href="add-task.html">Добавить новую задачу</a>
+            <hr>
+            <h3>Активные задачи</h3>
+            <ul>
+                <li>
+                    <input type="checkbox">
+                    <strong> Математика:</strong>
+                    Доделать практическую работу.
+                    <em>(Срок сдачи 25.10.2025)</em>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <strong> Химия</strong>
+                    ДЗ: 23 стр. 5 упр.
+                    <em>(Срок сдачи 28.10.2025)</em>
+                </li>
+            </ul>
+            <h3>Выполненные задачи</h3>
+            <ul>
+                <li>
+                    <input type="checkbox" checked disabled>
+                    <s><strong> Математика</strong> Подготовка к контрольной</s>
+                        <em>Сдано</em>
+                </li>
+            </ul>
+            <br>
+            <a href="../auth-module/login.html">Выйти из системы</a>
+    </body>
+</html>
